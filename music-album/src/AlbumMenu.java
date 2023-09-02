@@ -75,6 +75,7 @@ public class AlbumMenu {
                     System.out.println(album);
 
                 }
+                
                 //break;
 
             case 4:

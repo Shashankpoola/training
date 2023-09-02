@@ -1,15 +1,15 @@
-
 public class Album {
+	private String title;
+	private String artist;
+	private String genre;
+	
+	public Album() {
+	}
 
-	String title;
-	String artist;
-	String genre;
-
-	public Album(String i, String artist, String d) {
-		super();
-		this.title = i;
+	public Album(String title, String artist, String genre) {
+		this.title = title;
 		this.artist = artist;
-		this.genre = d;
+		this.genre = genre;
 	}
 
 	public String getTitle() {
@@ -40,5 +40,4 @@ public class Album {
 	public String toString() {
 		return "Album [title=" + title + ", artist=" + artist + ", genre=" + genre + "]";
 	}
-	
 }
